@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "Facebook Ad Remover",
+   "permissions": [ "https://www.facebook.com/*" ],
+   "version": "0.1",
+   "web_accessible_resources": [ "html_code.js" ],
+
+   "description": "Removes Suggested Posts from Facebook",
+   "content_scripts": [ {
+      "js": [ "jquery.js", "main.js" ],
+      "matches": [ "https://www.facebook.com/*" ]
+   } ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   }
+}
+
