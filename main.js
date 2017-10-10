@@ -18,5 +18,9 @@ function update(){
 
   //Removes sidebar ads
   $(".ego_section").parent().hide();
+
+  //Removes post for when a friend like a company or product
+  $("._m8c").parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().hide();
+
   return 0;
 }
